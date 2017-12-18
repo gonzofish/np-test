@@ -1,0 +1,28 @@
+{
+  "name": "np-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tagVersion": "np --no-publish",
+    "test": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.2",
+    "@types/node": "^8.5.1",
+    "awesome-typescript-loader": "^3.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.9",
+    "np": "^2.18.3",
+    "phantomjs-prebuilt": "^2.1.16",
+    "typescript": "^2.4.2",
+    "webpack": "^3.10.0"
+  }
+}
