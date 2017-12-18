@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tagVersion": "np --no-publish",
-    "test": "karma start"
+    "test": "node ./tasks/test"
   },
   "keywords": [],
   "author": "",
